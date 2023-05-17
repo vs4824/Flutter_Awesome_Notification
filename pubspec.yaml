@@ -1,0 +1,59 @@
+name: flutter_awesome_notification
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  awesome_notifications:
+  universal_io: ^2.0.4
+  font_awesome_flutter: ^9.0.0
+  fluttertoast: ^8.0.3
+  http: ^0.13.1
+  path_provider: ^2.0.11
+  shared_preferences: ^2.0.5
+  numberpicker: ^2.0.1
+#  giffy_dialog: ^1.8.0
+  vibration: ^1.7.4-nullsafety.0
+  device_info: ^2.0.3
+  url_launcher: ^6.0.3
+  intl: ^0.17.0
+  palette_generator: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/awesome-notifications-logo-color.png
+    - assets/images/awesome-notifications-logo-black.png
+    - assets/images/awesome-notifications-logo-white.png
+    - assets/images/girl-phonecall.jpg
+    - assets/images/animated-bell.gif
+    - assets/images/animated-clock.gif
+    - assets/images/animated-warning.gif
+    - assets/images/placeholder.gif
+    - assets/images/happy-dogs.jpg
+    - assets/images/balloons-in-sky.jpg
+    - assets/images/android-bg-worker.jpg
+    - assets/images/fireman-hero.jpg
+    - assets/images/delivery.jpeg
+    - assets/images/melted-clock.png
+    - assets/images/rock-disc.jpg
+    - assets/images/classic-disc.jpg
+    - assets/images/dj-disc.jpg
+    - assets/images/80s-disc.jpg
+    - assets/images/remix-disc.jpg
+    - assets/images/old-disc.jpg
